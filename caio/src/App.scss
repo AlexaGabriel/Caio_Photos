@@ -286,7 +286,7 @@ footer{
   
 }
 .parte{
-  margin-left: 5em;
+  margin-left: 5%;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -297,11 +297,11 @@ footer{
 footer > h2{
   color: #000;
   font-family: "Archivo Black";
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-left: 1.5em;
+  margin-left: 5%;
 }
 
 @media screen and (max-width: 1280px){
@@ -423,6 +423,10 @@ footer > h2{
   }
   .serv3{
     display: none;
+  }
+  //footer
+  .parte{
+   
   }
 }
 //animações
