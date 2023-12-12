@@ -252,7 +252,7 @@ a:hover{
   width: 50%;
   color: #FFF;
   font-family: 'Encode Sans SC', sans-serif;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -269,8 +269,8 @@ a:hover{
   gap: 1em;
 }
 .imgs-serv > img{
-  max-width: 11rem;
-  max-height: 11rem;
+  width: 11rem;
+  height: 11rem;
 }
 .serv1{
   margin-right: 10rem;
@@ -323,19 +323,23 @@ footer > h2{
   }
   .title > .góes{
     margin-left: 25%;
+    animation: none;
   }
   .title > h2{
     margin-left: 25%;
     color: #FFF;
   }
   //port
+  #port{
+    height: 80%;
+  }
   #port > h2{
     font-size: 1.5rem;
     margin-left: 1.8rem;
   }
   .imagens-colum{
     grid-gap: 10px;
-    padding-top: 15%;
+    padding-top: 5%;
   }
   .second-line{
     grid-row:1;
@@ -386,9 +390,11 @@ footer > h2{
   //serv
   #serv > .flexi > .texto-serv{
     margin-left: 3rem;
+
   }
   #serv > .flexi > h1{
     margin-left: 2.5rem;
+    font-size: 2.5rem;
   }
   .linha-h{
     display: none;
@@ -398,20 +404,21 @@ footer > h2{
   }
   #serv > section > aside > p{
     width: 30%;
+    font-size: 1rem;
   }
   .imgs-serv{
     gap: 4em;
   }
   .imgs-serv > img{
-    max-width: 7rem;
-    max-height: 7rem;
+    width: 8rem;
+    height: 8rem;
   }
   .serv1{
     margin-right: 0rem;
-    margin-left: -8rem;
+    margin-left: -55%;
   }
   .serv2{
-    margin-right: 3rem;
+    margin-right: 25%;
     
   }
   .serv3{
