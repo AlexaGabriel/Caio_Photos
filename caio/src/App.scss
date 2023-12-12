@@ -34,7 +34,7 @@ a{
 .logo > img{
   width: 6rem;
   height: 4rem;
-  margin-left: 5em;
+  margin-left: 15%;
 }
 ul{
   list-style-type: none;
@@ -94,7 +94,7 @@ a:hover{
 //port 
 #port{
   background: #000;
-  height: 700px;
+  height: 80%;
   
 }
 //titulo
@@ -105,7 +105,7 @@ a:hover{
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-left: 5.5rem;
+  margin-left: 5%;
 }
 .imagens-colum{
   display: grid;
@@ -305,9 +305,27 @@ footer > h2{
 }
 
 @media screen and (max-width: 1280px){
+  //header
   header{
     background-position: center;
   }
+  .logo > img{
+    
+  }
+  nav{
+    gap: 20%;
+  }
+  ul{
+    gap: 5%;
+    font-size: 1.25rem;
+  }
+
+  //about
+  #about > .flex-in > img{
+    width: 18rem;
+    height: 23rem;
+  }
+
 }
 // versão mobile
 @media screen and (max-width: 720px) {
@@ -335,7 +353,7 @@ footer > h2{
   }
   #port > h2{
     font-size: 1.5rem;
-    margin-left: 1.8rem;
+  
   }
   .imagens-colum{
     grid-gap: 10px;
@@ -425,9 +443,6 @@ footer > h2{
     display: none;
   }
   //footer
-  .parte{
-   
-  }
 }
 //animações
 @keyframes slide-right{0%{transform:translateX(-150px)}100%{transform:translateX(0px)}}
