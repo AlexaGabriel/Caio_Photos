@@ -61,7 +61,7 @@ a:hover{
   flex-direction: column;
 }
 .title > .caio{
-  margin-left: 25rem;
+  margin-left: 25%;
   color: #FFF;
   font-family: 'Archivo Black', sans-serif;
   font-size: 6rem;
@@ -71,7 +71,7 @@ a:hover{
   animation: slide-right 2s ease-in-out;
 }
 .title > .góes{
-  margin-left: 40rem;
+  margin-left: 45%;
   color: #000;
   font-family: 'Archivo Black', sans-serif;
   font-size: 6rem;
@@ -81,7 +81,7 @@ a:hover{
   animation: slide-left 2s ease-in-out;
 }
 .title > h2{
-  margin-left: 40rem;
+  margin-left: 45%;
   color: #232323;
   font-family: 'Archivo Black', sans-serif;
   font-size: 2rem;
@@ -110,19 +110,17 @@ a:hover{
 .imagens-colum{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(4rem, 1fr)); ;
-  grid-template-rows: repeat(auto-fill, minmax(7rem, 1fr));
-  grid-gap: 5%;
-  padding: 2%;
+  grid-template-rows: repeat(auto-fill, minmax(6rem, 1fr));
+  grid-gap: 25px;
+  padding: 5%;
   margin: 0 auto;
   padding-top: 0px;
-  justify-items: center;
-  align-items: stretch;
-  align-content: space-around;
-  justify-content: space-around;
+  align-items: center;
 }
 .imagens-colum > span > img{
   max-width: 100%;
   max-height: 100%;
+  object-fit: cover;
 }
 .first-line{
   grid-row: 1;
@@ -131,7 +129,6 @@ a:hover{
 .second-line{
   grid-row: 2;
   grid-column: 1;
-  height: 75%;
 }
 .third-line{
   grid-row: 1 ;
@@ -171,12 +168,9 @@ a:hover{
   height: 33rem;
   border: 1.5rem solid #000;
 }
-#about > .flex-in > section{
-  width: 40%;
- 
-}
 .flex-in > section{
   height: 525px;
+  width: 40%;
   border:2px solid black;
   border-left: none;
   border-top: none;
@@ -339,10 +333,13 @@ footer > h2{
     font-size: 1.5rem;
     margin-left: 1.8rem;
   }
+  .imagens-colum{
+    grid-gap: 10px;
+    padding-top: 15%;
+  }
   .second-line{
     grid-row:1;
     grid-column: 2;
-    height: 80%;
   }
   .third-line{
     grid-row: 2;
@@ -371,8 +368,10 @@ footer > h2{
     border: 1rem solid #000;
   }
   .flex-in > section{
-    height: 300px;
-    width: 400px;
+    height: 80%;
+    width: 70%;
+    margin-top: 20%;
+    border: none;
   }
   .flex-in > section > h1{
     font-size: 2rem;
