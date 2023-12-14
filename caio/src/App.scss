@@ -170,15 +170,15 @@ a:hover{
 }
 .flex-in > section{
   height: 525px;
-  width: 40%;
+  width: 45%;
   border:2px solid black;
   border-left: none;
   border-top: none;
   border-bottom: none;
 }
 .flex-in > section > .linha-horizontal{
-  width: 580px;
-  height: 100px;
+  width: 110%;
+  height: 20%;
   border:2px solid black;
   border-left: none;
   border-top: none;
@@ -309,9 +309,7 @@ footer > h2{
   header{
     background-position: center;
   }
-  .logo > img{
-    
-  }
+  
   nav{
     gap: 20%;
   }
@@ -325,7 +323,9 @@ footer > h2{
     width: 18rem;
     height: 23rem;
   }
-
+  .flex-in > section > .linha-horizontal{
+  height: 10%;
+  }
 }
 // versão mobile
 @media screen and (max-width: 720px) {
@@ -406,6 +406,9 @@ footer > h2{
   }
 
   //serv
+  #serv{
+    height: 725px;
+  }
   #serv > .flexi > .texto-serv{
     margin-left: 3rem;
 

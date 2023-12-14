@@ -91,18 +91,16 @@ function App() {
       <h2>contato</h2>
       <div className='parte'>
         <aside className='contacts'>
-          <a href="https://www.instagram.com/caiow_photos/">
+          
             <span>
               <img src={insta} alt="" />
-              <p>Instagram: caiow_photos</p>
+              <p>Instagram: <a href="https://www.instagram.com/caiow_photos/" target='blank'>caiow_photos</a></p>
             </span>
-          </a>
-          <a href="">
+         
             <span>
               <img src={email} alt="" />
-              <p>Email: </p>
+              <p>Email:<a href="https://mail.google.com/mail/u/0/?ogbl#inbox?compose=DmwnWrRtsffTgHWKxPdGqXRPFbSJLtCvsKjcBPtKzMDQLgSKfvxPSnpZbZwPzrxNSksjxfSlggXB" target='blank'>caiowphotos@gmail.com</a></p>
             </span>
-          </a>
         </aside>
         <aside className='creditos'>
           <p>Feito por <a href="https://www.instagram.com/dev_alexgbriel/">Alexandre</a></p>
